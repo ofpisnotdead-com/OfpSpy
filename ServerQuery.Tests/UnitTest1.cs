@@ -12,7 +12,8 @@ namespace ServerQuery.Tests
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            int result = ServerQuery.Class1.hello();
+            Assert.AreEqual(1, result);
         }
     }
 }
